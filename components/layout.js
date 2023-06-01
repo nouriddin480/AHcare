@@ -12,7 +12,6 @@ export default function Layout({ children, home }) {
         {home ? (
           <div className={styles.logoContainer}>
 
-            <h1 className={`${utilStyles.heading2Xl} ${styles.ahCare}`}>{name}</h1>
           </div>
         ) : (
           <>
